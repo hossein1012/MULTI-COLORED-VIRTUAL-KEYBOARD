@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.container {
+    text-align: center;
+}
+
+textarea {
+    width: 900px;
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 20px;
+}
+ 
+#toggleBackground {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.keyboard {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 10px;
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 40px 50px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px #ccc;
+}
+
+.key {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 3.5px 3.5px 3.5px #ccc;
+    cursor: pointer;
+}
+
+.key:hover {
+    background-color: #e0e0e0;
+}
